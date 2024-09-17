@@ -89596,7 +89596,7 @@ var $async$ys=A.Q(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 j=A.fF("https://noam.berezini.com/v1/getAnswer",0,null)
 i=t.N
-h=A.T(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Content-Type","application/json"],i,i)
+h=A.T(["Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Content-Type","application/json"],i,i)
 s=6
 return A.U(A.aU5(j,B.cv.VI(A.T(["email",o.e.c+"@mail.com","language","en","application","android","question",a],i,i),null),h),$async$ys)
 case 6:n=c
